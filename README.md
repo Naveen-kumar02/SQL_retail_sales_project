@@ -23,7 +23,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 - **Table Load**: A table name 'retail_sales' is created to store the sales data. The table is loaded into the database using python (pandas) using mysql connectore.- - **The table columns**: transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cose of goods sold (COGS) and total sale amount.
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE sqlproject;
 ```
 
 ### 2. Data Exploration & Cleaning
@@ -113,7 +113,7 @@ where rnk  = 1;
 
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+8. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 select customer_id , sum(total_sale) as total_sales
 from retail_sales

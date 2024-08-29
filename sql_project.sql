@@ -1,4 +1,5 @@
 # Creating database 
+create database sqlproject
 use sqlproject;
 
 # load the dataset into my sql workbench using python with pandas
